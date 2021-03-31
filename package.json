@@ -1,0 +1,19 @@
+{
+  "name": "revue",
+  "version": "1.0.0",
+  "description": "A reddit clone built with Vue.js and Flask",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesjm13/assignment2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesjm13/assignment2/issues"
+  },
+  "homepage": "https://github.com/charlesjm13/assignment2#readme"
+}
