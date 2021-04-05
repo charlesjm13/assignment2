@@ -9,7 +9,7 @@
       <div id="image-upload">
         <p>
           <span v-if="!image">Drag your image here to begin<br> or click to browse</span>
-          <span v-else="">
+          <span v-else>
             {{ image.name }}
           </span>
         </p>
@@ -44,6 +44,7 @@ export default {
             formData.append('title', this.title)
             formData.append('subvue', this.subvue)
             formData.append('content', this.content)
+            console.log(formData)
 
             // If photo has been set
             if (this.image) {
